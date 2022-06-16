@@ -181,7 +181,7 @@ if selected=="Recommend":
 
 if selected=="About":
     with st.sidebar:
-        st.subheader("This is Btech final year project. This project is a content based Book Recommendation System implemented using K-Nearest Neighbor(KNN) Algorithm. Our system recommends 5 books based on the content of the book enetered..")
+        st.subheader("This is Btech final year project. This project is a content based Book Recommendation System implemented using K-Nearest Neighbor(KNN) Algorithm. Our system recommends 5 books based on the content of the book entered..")
 
 if selected=="Github Repository":
     with st.sidebar:
