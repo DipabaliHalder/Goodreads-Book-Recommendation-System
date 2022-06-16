@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 from streamlit_option_menu import option_menu
 import pickle
+import pandas as pd
 
 def fetch_poster(isbn):
     url = "http://covers.openlibrary.org/b/isbn/{}-M.jpg".format(isbn)
@@ -177,11 +178,11 @@ if selected=="Recommend":
 
 if selected=="About":
     with st.sidebar:
-        st.subheader("This is 4th year Btech final year project. This project is a content based book recommendation system implemented using KNN algorithm.")
+        st.subheader("This is Btech final year project. This project is a content based Book Recommendation System implemented using K-Nearest Neighbor(KNN) Algorithm. Our system recommends 5 books based on the content of the book enetered..")
 
 if selected=="Github Repository":
     with st.sidebar:
-        st.subheader("*Click on this [link](https://github.com/DipabaliHalder/Book-Recommender-Engine) for more reference...*")
+        st.subheader("*Click on this [link](https://github.com/DipabaliHalder/Goodreads-Book-Recommendation-System) for more reference...*")
         col1, col2, col3 = st.columns([1, 2, 1])
         with col1:
             st.write("")
